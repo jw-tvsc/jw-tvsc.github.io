@@ -1,16 +1,11 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-import VideoBackground from 'vue-responsive-video-background-player'
+
 </script>
 
 <template>
-  <video-background 
-    src="./assets/static1.mp4"
-    style="height: 100vh; margin:auto; padding: 0; border:0;"
- >
- </video-background>
+ <video playsinline autoplay mute loop id="bgstatic">
+   <source src="./assets/static1.mp4" type="video/mp4">
+ </video>
 </template>
 
 <style>
@@ -23,5 +18,13 @@ import VideoBackground from 'vue-responsive-video-background-player'
   background-color: black;
   margin: 0;
   padding:0;
+}
+video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 </style>
