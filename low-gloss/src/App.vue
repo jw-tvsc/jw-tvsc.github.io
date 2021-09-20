@@ -3,7 +3,7 @@
 </script>
 
 <template>
- <video playsinline autoplay mute loop id="bgstatic">
+ <video playsinline autoplay muted loop id="bgstatic">
    <source src="./assets/static1.mp4" type="video/mp4">
  </video>
 </template>
