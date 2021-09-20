@@ -7,7 +7,7 @@ import VideoBackground from 'vue-responsive-video-background-player'
 
 <template>
   <video-background 
-    src="src/assets/static1.mp4"
+    src="./assets/static1.mp4"
     style="height: 100vh; margin:auto; padding: 0; border:0;"
  >
  </video-background>
