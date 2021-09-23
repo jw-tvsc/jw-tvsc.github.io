@@ -25,19 +25,20 @@
 }
 
 #header{
-  font-family: ocr-b-std, monospace;
+  font-family: ocr-a-std, monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
   padding: 2rem;
   text-align: left;
-  color: #0F0F0F;
+  color: #0F612D;
+  
   z-index: 1;
 }
 
 #vnum{
-  font-size: 0.8rem;
+  font-size: .8rem;
   padding: 0.4rem
 }
 
